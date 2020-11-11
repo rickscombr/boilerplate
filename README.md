@@ -1,3 +1,5 @@
+<img src="/public/img/logo-b.svg" alt="Logo do Projeto"/>
+
 # Ricks - Bolierplate
 
 Este é um projeto de Boilerplate para desenvolvimento de aplicações com as seguintes tecnologias:
