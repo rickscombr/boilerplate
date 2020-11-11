@@ -30,11 +30,14 @@ Neste projeto estamos usando as seguintes ferramentas:
 
 * [GitHub](https://github.com/rickscombr/boilerplate.git)
 
-## Instalação
+## Criando projeto com base no Boilerplate - Instalação
 
 ```sh
-$ git clone https://github.com/rickscombr/boilerplate.git
-$ cd boilerplate
+$ yarn create next-app -e https://github.com/rickscombr/boilerplate.git
+
+Será solicitado o nome do projeto, é só informá-lo <PROJETO>
+
+$ cd <PROJETO>
 $ yarn
 ```
 
