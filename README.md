@@ -18,6 +18,7 @@ Neste projeto estamos usando as seguintes ferramentas:
 * [Eslint](https://eslint.org/)
 * [Husky](https://www.npmjs.com/package/husky)
 * [Prettier](https://prettier.io/)
+* [Plop](https://plopjs.com/)
 
 
 ## Pré-requisitos
@@ -33,7 +34,7 @@ Neste projeto estamos usando as seguintes ferramentas:
 ## Criando projeto com base no Boilerplate - Instalação
 
 ```sh
-$ yarn create next-app -e https://github.com/rickscombr/boilerplate.git
+$ yarn create next-app -e https://github.com/rickscombr/boilerplate
 
 Será solicitado o nome do projeto, é só informá-lo <PROJETO>
 
@@ -67,3 +68,13 @@ $ yarn test:watch
 ```sh
 $ yarn storybook
 ```
+
+## Criando um novo componente automatizado (PLOP)
+
+Para agilizar a criação da estrutura de um novo componente no projeto, utilizado a ferramente PLOP, que gera os arquivos do componente em estrutura padão, já cria o arquivo de styles, stories e test.
+
+```sh
+$ yarn generate <NOME COMPONENTE>
+```
+
+Será criado na pasta /src/components os arquivos deste novo componente.
