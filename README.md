@@ -1,30 +1,64 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Ricks - Bolierplate
 
-## Getting Started
+Este é um projeto de Boilerplate para desenvolvimento de aplicações com as seguintes tecnologias:
 
-First, run the development server:
+* [ReacJS](https://pt-br.reactjs.org/)
+* [NextJS](https://nextjs.org/)
+* [TypeScript](https://www.typescriptlang.org/)
+* [Styled Components](https://styled-components.com/)
 
-```bash
-npm run dev
-# or
-yarn dev
+Neste projeto estamos usando as seguintes ferramentas:
+
+* [Git](https://git-scm.com/)
+* [Jest](https://jestjs.io/)
+* [Storybook](https://storybook.js.org/)
+* [Babel](https://babeljs.io/)
+* [Eslint](https://eslint.org/)
+* [Husky](https://www.npmjs.com/package/husky)
+* [Prettier](https://prettier.io/)
+
+
+## Pré-requisitos
+
+* [Git](https://git-scm.com/)
+* [Node](http://nodejs.org/)
+* [Yarn](https://yarnpkg.com/)
+
+## Respositório na núvem
+
+* [GitHub](https://github.com/rickscombr/boilerplate.git)
+
+## Instalação
+
+```sh
+$ git clone https://github.com/rickscombr/boilerplate.git
+$ cd boilerplate
+$ yarn
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Executando Local (DEV)
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```sh
+$ yarn dev
+```
 
-## Learn More
+## Deploy para produção
 
-To learn more about Next.js, take a look at the following resources:
+```sh
+$ yarn build
+$ yarn start
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Executando Testes (DEV)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+```sh
+$ yarn test
+or
+$ yarn test:watch
+```
 
-## Deploy on Vercel
+## Executando Storybook (DEV)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```sh
+$ yarn storybook
+```
