@@ -1,4 +1,4 @@
-<img src="/public/img/logo-b.svg" alt="Logo do Projeto"/>
+<img src="/public/img/logo-b.svg" alt="Logo do Projeto"/ width="250">
 
 # Ricks - Bolierplate
 
