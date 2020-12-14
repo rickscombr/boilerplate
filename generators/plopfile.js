@@ -2,11 +2,13 @@ module.exports = function (plop) {
     // controller generator
     plop.setGenerator('component', {
         description: 'application component logic',
-        prompts: [{
-            type: 'input',
-            name: 'name',
-            message: 'Qual o nome do Componente'
-        }],
+        prompts: [
+            {
+                type: 'input',
+                name: 'name',
+                message: 'Qual o nome do Componente'
+            }
+        ],
         actions: [
             {
                 type: 'add',
@@ -29,5 +31,5 @@ module.exports = function (plop) {
                 templateFile: 'templates/test.tsx.hbs'
             }
         ]
-    });
-};
+    })
+}
